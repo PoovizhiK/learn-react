@@ -4,7 +4,9 @@
 // root.render(
 //     <h1>Hello, React!</h1>
 // )
-
+const h1=createElement("h1")
+h1.textContent="This is content"
+document.getElementById("root").appendChild(h1)
 
 /* 
 Challenge - recreate the above line of code in vanilla JS by creating and
