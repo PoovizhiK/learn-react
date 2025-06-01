@@ -1,3 +1,8 @@
+import react from react
+import reactDOM from react-dom/client
+
+const w1=createRoot(document.getElementById("root"))
+w1.render(<a src="react-logo.png"></a>,document.getElementById("root"))
 /*
 Challenge: Starting from scratch, build and render the 
 HTML for our section project. Check the Google slide for 
