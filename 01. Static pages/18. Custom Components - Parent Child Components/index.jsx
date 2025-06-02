@@ -1,5 +1,11 @@
 import { createRoot } from "react-dom/client"
 const root = createRoot(document.getElementById("root"))
+funtion Header(){
+return(
+    <header>
+                <img src="react-logo.png" width="40px" alt="React logo" />
+            </header> 
+)}
 
 /** Mini Challenge:
  * 
@@ -13,9 +19,7 @@ const root = createRoot(document.getElementById("root"))
 function Page() {
     return (
         <>
-            <header>
-                <img src="react-logo.png" width="40px" alt="React logo" />
-            </header>
+           <header></header>
             <main>
                 <h1>Reason I am excited to learn React</h1>
                 <ol>
